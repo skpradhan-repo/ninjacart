@@ -55,10 +55,14 @@ The project includes:
 * Confusion Matrix visualization
 * Test dataset evaluation
 
-Example metrics:
-
 ```
-Test Accuracy: XX.XX%
+Model AccuracyL:
+
+VGG19 80.63% Most stable; excellent generalization.
+VGG16 79.49% Fastest convergence.
+Custom CNN 78.06% Good performance but more volatile.
+ResNet101 38.75% Too complex for current dataset size
+
 ```
 
 ---
@@ -78,51 +82,11 @@ Install dependencies:
 pip install -r requirements.txt
 ```
 
----
-
-## ▶️ Usage
-
-Run training:
-
-```bash
-python src/model.py
-```
-
-Evaluate model:
-
-```bash
-python src/evaluator.py
-```
-
----
-
-## 📁 Dataset
-
-⚠️ The dataset is not included due to size limitations.
-
-You can download it from:
-
-* [Add your dataset link here]
-
-Place it inside:
-
-```
-data/
-```
-
----
 
 ## 📷 Sample Outputs
 
-### Accuracy Curve
+<img width="576" height="455" alt="image" src="https://github.com/user-attachments/assets/55668008-832e-4559-b665-787a2374ad06" />
 
-(Add screenshot here)
-
-### Confusion Matrix
-
-(Add screenshot here)
-
----
 
 ## 🧠 Learnings
 
