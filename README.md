@@ -56,7 +56,7 @@ The project includes:
 * Test dataset evaluation
 
 ```
-Model AccuracyL:
+Model Accuracy:
 
 VGG19 80.63% Most stable; excellent generalization.
 VGG16 79.49% Fastest convergence.
